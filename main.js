@@ -58,8 +58,8 @@ function populateCourses() {
             <h3>${course.title}</h3>
             <p>${course.description}</p>
             <div class="course-details">
-                <span>Level: ${course.level}</span>
-                <span>Duration: ${course.duration}</span>
+                <p>Level: ${course.level}</p>
+                <p>Duration: ${course.duration}</p>
             </div>
         `;
         courseGrid.appendChild(courseCard);
